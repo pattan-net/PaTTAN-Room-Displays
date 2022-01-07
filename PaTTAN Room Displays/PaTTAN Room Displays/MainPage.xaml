@@ -22,6 +22,15 @@
                 FontSize="60"
                 HorizontalOptions="Center" />
 
+            <Button
+                Text="Refresh room data"
+                FontAttributes="Bold"
+                Grid.Row="3"
+                SemanticProperties.Hint="Prase XML to console"
+                Clicked="OnRefreshClick"
+                HorizontalOptions="Center" />
+
+
             <!--<Image Grid.Row="2"
                 Source=""
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
