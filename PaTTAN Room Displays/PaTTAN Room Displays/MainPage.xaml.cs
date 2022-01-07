@@ -1,4 +1,5 @@
 ﻿using System.Xml;
+using System.Xml.Linq;
 using System.ServiceModel.Syndication;
 
 namespace PaTTAN_Room_Displays;
@@ -11,32 +12,40 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 
-		DateTimeLabel.Text = DateTime.Now.ToString("dddd, MMMM d h:mm tt");
+        //Get the device name, and display it. Device names should be configured for the room that they represent.
+        var deviceName = DeviceInfo.Name;
+        RoomNameLabel.Text = deviceName;
 
-        SyndicationFeed feed = null;
+        //Get the date and time and display them.
+        DateTimeLabel.Text = DateTime.Now.ToString("dddd, MMMM d h:mm tt");
 
-        try
+        XElement full = XElement.Load(uri: URLString);
+        IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
+        Console.WriteLine("Begin of result set");
+        foreach (XElement el in c1)
         {
-            using (var reader = XmlReader.Create(URLString))
+            XElement roomName = el.Descendants().Where(e => e.Name.LocalName == "RoomName").FirstOrDefault();
+            XElement title = el.Descendants().Where(e => e.Name.LocalName == "title").FirstOrDefault();
+            XElement startTime = el.Descendants().Where(e => e.Name.LocalName == "StartTime").FirstOrDefault();
+            XElement endTime = el.Descendants().Where(e => e.Name.LocalName == "EndTime").FirstOrDefault();
+            XElement contact = el.Descendants().Where(e => e.Name.LocalName == "Contact").FirstOrDefault();
+
+            if(roomName.Value == deviceName)
             {
-                feed = SyndicationFeed.Load(reader);
+                EventTitleLabel.Text = title.Value;
+                EventTimeLabel.Text = startTime.Value + " - " + endTime.Value;
             }
-        }
-        catch 
-        {
-            Console.WriteLine("Did not load feed.");
-        } 
 
-        if (feed != null)
-        {
-            foreach (var element in feed.Items)
-            {
-                Console.WriteLine($"Title: {element.Title.Text}");
-                Console.WriteLine($"Summary: {element.Summary.Text}");
-            }
+            Console.WriteLine(title.Value);
+            Console.WriteLine(startTime.Value);
+            Console.WriteLine(endTime.Value);
+            Console.WriteLine(contact.Value);
+            Console.WriteLine(roomName.Value);
+
+
         }
+        
+
     }
-
-   
 }
 

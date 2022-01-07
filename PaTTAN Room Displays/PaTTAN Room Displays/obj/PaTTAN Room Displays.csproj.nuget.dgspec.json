@@ -82,9 +82,17 @@
               "version": "[6.0.101-preview.11.2349, )",
               "autoReferenced": true
             },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.ServiceModel.Syndication": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             }
           },
           "imports": [
@@ -153,9 +161,17 @@
               "version": "[6.0.101-preview.11.2349, )",
               "autoReferenced": true
             },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.ServiceModel.Syndication": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             }
           },
           "imports": [
@@ -210,9 +226,17 @@
               "version": "[6.0.101-preview.11.2349, )",
               "autoReferenced": true
             },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.ServiceModel.Syndication": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             }
           },
           "imports": [
@@ -276,9 +300,17 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.ServiceModel.Syndication": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             }
           },
           "imports": [

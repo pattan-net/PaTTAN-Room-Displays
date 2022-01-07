@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bYIc1M0R/qxIX/34lG3jU1x9J+zgtiyme5JJKI2QX/wnb8BILWHdh9w2tmHkNaf/YDSJUWvec8CkctWkAEQx6w==",
+  "dgSpecHash": "lzYj6hBQCPITzK6VSV8UqpdVN39oKmBgVqKmqTPgwKlkQwYn8HiNWVD8qtmI2XTlV0z+fiGajHmbKqW4ozEDTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Joel Wehr\\Dropbox\\Software Dev\\MAUI\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays.csproj",
   "expectedPackageFiles": [
@@ -36,14 +36,57 @@
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.maui.graphics\\6.0.101-preview.11.758\\microsoft.maui.graphics.6.0.101-preview.11.758.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.101-preview.11.758\\microsoft.maui.graphics.win2d.winui.desktop.6.0.101-preview.11.758.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.maui.resizetizer.sdk\\6.0.101-preview.11.2349\\microsoft.maui.resizetizer.sdk.6.0.101-preview.11.2349.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.globalization\\4.3.0\\runtime.any.system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.io\\4.3.0\\runtime.any.system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.reflection\\4.3.0\\runtime.any.system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.reflection.primitives\\4.3.0\\runtime.any.system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.resources.resourcemanager\\4.3.0\\runtime.any.system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.any.system.threading.tasks\\4.3.0\\runtime.any.system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.unix.system.diagnostics.debug\\4.3.0\\runtime.unix.system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.unix.system.private.uri\\4.3.0\\runtime.unix.system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.unix.system.runtime.extensions\\4.3.0\\runtime.unix.system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.win.system.diagnostics.debug\\4.3.0\\runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.win.system.runtime.extensions\\4.3.0\\runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.servicemodel.syndication\\6.0.0\\system.servicemodel.syndication.6.0.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.android.glide\\4.12.0.2\\xamarin.android.glide.4.12.0.2.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.12.0.2\\xamarin.android.glide.disklrucache.4.12.0.2.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.android.glide.gifdecoder\\4.12.0.2\\xamarin.android.glide.gifdecoder.4.12.0.2.nupkg.sha512",
@@ -99,6 +142,7 @@
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.10\\xamarin.androidx.versionedparcelable.1.1.1.10.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.10\\xamarin.androidx.viewpager.1.0.0.10.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.12\\xamarin.androidx.viewpager2.1.0.0.12.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.4\\xamarin.google.android.material.1.4.0.4.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.4\\xamarin.google.guava.listenablefuture.1.0.0.4.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.1\\microsoft.netcore.app.host.linux-x64.6.0.1.nupkg.sha512",
@@ -115,5 +159,706 @@
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.1\\microsoft.aspnetcore.app.runtime.win-x86.6.0.1.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.1\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Linq 4.3.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Numerics.Vectors 4.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Numerics.Vectors",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.ServiceModel.Syndication",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    }
+  ]
 }
