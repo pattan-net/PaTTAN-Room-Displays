@@ -17,7 +17,7 @@ public partial class MainPage : ContentPage
         RoomNameLabel.Text = deviceName;
 
         //Get the date and time and display them.
-        DateTimeLabel.Text = DateTime.Now.ToString("dddd, MMMM d h:mm tt");
+        DateTimeLabel.Text = DateTime.Now.ToString("dddd, MMMM d | h:mm tt");
 
         XElement full = XElement.Load(uri: URLString);
         IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
