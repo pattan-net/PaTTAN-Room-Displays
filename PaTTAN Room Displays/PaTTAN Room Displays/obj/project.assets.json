@@ -513,18 +513,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2059,18 +2047,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -3594,18 +3570,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -5139,18 +5103,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -6674,18 +6626,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -8219,18 +8159,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -9754,18 +9682,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -11300,18 +11216,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -12836,18 +12740,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -14382,18 +14274,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15923,18 +15803,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16478,18 +16346,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17022,18 +16878,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -17576,18 +17420,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -18120,18 +17952,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -18674,18 +18494,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -19218,18 +19026,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -19773,18 +19569,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -20323,18 +20107,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -20868,18 +20640,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -21432,18 +21192,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -21987,18 +21735,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -22531,18 +22267,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -23085,18 +22809,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -23629,18 +23341,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -24183,18 +23883,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -24727,18 +24415,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -25282,18 +24958,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -25832,18 +25496,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -26377,18 +26029,6 @@
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -27162,18 +26802,6 @@
         },
         "compile": {
           "ref/netstandard1.5/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -28145,18 +27773,6 @@
           "ref/netstandard1.5/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -29120,18 +28736,6 @@
         },
         "compile": {
           "ref/netstandard1.5/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -30099,18 +29703,6 @@
           "ref/netstandard1.5/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -31074,18 +30666,6 @@
         },
         "compile": {
           "ref/netstandard1.5/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -32053,18 +31633,6 @@
           "ref/netstandard1.5/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -33030,18 +32598,6 @@
           "ref/netstandard1.5/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -33940,18 +33496,6 @@
         },
         "compile": {
           "ref/netstandard1.5/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -34854,18 +34398,6 @@
           "ref/netstandard1.5/_._": {}
         }
       },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -35764,18 +35296,6 @@
         },
         "compile": {
           "ref/netstandard1.5/_._": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -38512,31 +38032,6 @@
         "system.runtime.extensions.nuspec"
       ]
     },
-    "System.ServiceModel.Syndication/6.0.0": {
-      "sha512": "cp1mMNG87iJtE0oHXFtfWT6cfski2JNo5iU0siTPi/uN2k1CIJI6FE4jr4v3got2dzt7wBq17fSy44btun9GiA==",
-      "type": "package",
-      "path": "system.servicemodel.syndication/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.ServiceModel.Syndication.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.ServiceModel.Syndication.dll",
-        "lib/net461/System.ServiceModel.Syndication.xml",
-        "lib/net6.0/System.ServiceModel.Syndication.dll",
-        "lib/net6.0/System.ServiceModel.Syndication.xml",
-        "lib/netcoreapp3.1/System.ServiceModel.Syndication.dll",
-        "lib/netcoreapp3.1/System.ServiceModel.Syndication.xml",
-        "lib/netstandard2.0/System.ServiceModel.Syndication.dll",
-        "lib/netstandard2.0/System.ServiceModel.Syndication.xml",
-        "system.servicemodel.syndication.6.0.0.nupkg.sha512",
-        "system.servicemodel.syndication.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -40137,7 +39632,6 @@
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "System.Linq >= 4.3.0",
-      "System.ServiceModel.Syndication >= 6.0.0",
       "Xamarin.Essentials >= 1.7.0"
     ],
     "net6.0-ios15.0": [
@@ -40146,7 +39640,6 @@
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "System.Linq >= 4.3.0",
-      "System.ServiceModel.Syndication >= 6.0.0",
       "Xamarin.Essentials >= 1.7.0"
     ],
     "net6.0-maccatalyst15.0": [
@@ -40155,7 +39648,6 @@
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "System.Linq >= 4.3.0",
-      "System.ServiceModel.Syndication >= 6.0.0",
       "Xamarin.Essentials >= 1.7.0"
     ],
     "net6.0-windows10.0.19041": [
@@ -40166,7 +39658,6 @@
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "Microsoft.WindowsAppSDK >= 1.0.0",
       "System.Linq >= 4.3.0",
-      "System.ServiceModel.Syndication >= 6.0.0",
       "Xamarin.Essentials >= 1.7.0"
     ]
   },
@@ -40257,10 +39748,6 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
-          "System.ServiceModel.Syndication": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -40336,10 +39823,6 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
-          "System.ServiceModel.Syndication": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -40400,10 +39883,6 @@
           "System.Linq": {
             "target": "Package",
             "version": "[4.3.0, )"
-          },
-          "System.ServiceModel.Syndication": {
-            "target": "Package",
-            "version": "[6.0.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -40474,10 +39953,6 @@
           "System.Linq": {
             "target": "Package",
             "version": "[4.3.0, )"
-          },
-          "System.ServiceModel.Syndication": {
-            "target": "Package",
-            "version": "[6.0.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -40621,16 +40096,6 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
       "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Text.Encodings.Web",
       "targetGraphs": [
@@ -40683,16 +40148,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/android-arm"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/android-arm"
       ]
@@ -40761,16 +40216,6 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/android-arm64"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
       "message": "'System.Text.Encodings.Web 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Text.Encodings.Web",
       "targetGraphs": [
@@ -40823,16 +40268,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/android-x64"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/android-x64"
       ]
@@ -40893,16 +40328,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/android-x86"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/android-x86"
       ]
@@ -40963,16 +40388,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/ios-arm"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/ios-arm"
       ]
@@ -41033,16 +40448,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/maccatalyst-x64"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/maccatalyst-x64"
       ]
@@ -41103,16 +40508,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/win10-arm64"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/win10-arm64"
       ]
@@ -41173,16 +40568,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/win10-x64"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/win10-x64"
       ]
@@ -41243,16 +40628,6 @@
       "warningLevel": 1,
       "message": "'System.Runtime.CompilerServices.Unsafe 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
-      "targetGraphs": [
-        "net6.0-maccatalyst15.0/win10-x86"
-      ]
-    },
-    {
-      "code": "NU1703",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.ServiceModel.Syndication 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
-      "libraryId": "System.ServiceModel.Syndication",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/win10-x86"
       ]

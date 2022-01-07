@@ -28,7 +28,7 @@ C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Di
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Microsoft.Extensions.Primitives.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Microsoft.Maui.Graphics.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\System.Diagnostics.EventLog.dll
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\System.ServiceModel.Syndication.dll
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Xamarin.Essentials.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Microsoft.CSharp.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Microsoft.VisualBasic.Core.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Microsoft.VisualBasic.dll
@@ -255,6 +255,16 @@ C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Di
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\resizetizer\f\MauiInfo.plist
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\mauifont.stamp
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\actool\_PartialAppManifest.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\actool\_BundleResourceWithLogicalName.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\actool\_ProcessedImageAssetsPath.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\coremlc\_PartialAppManifest.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\_ProcessedBundleResourcesPath.items
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\_ProcessedContentPath.items
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.csproj.AssemblyReference.cache
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.AssemblyInfoInputs.cache
@@ -267,14 +277,3 @@ C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Di
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.pdb
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.genruntimeconfig.cache
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\ref\PaTTAN Room Displays.dll
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Xamarin.Essentials.dll
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\actool\_PartialAppManifest.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\actool\_BundleResourceWithLogicalName.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\actool\_ProcessedImageAssetsPath.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\ibtool\_ProcessedInterfaceDefinitionsPath.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\coremlc\_PartialAppManifest.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\coremlc\_ProcessedCoreMLModelsPath.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\_ProcessedBundleResourcesPath.items
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\obj\Debug\net6.0-ios\ios-arm\_ProcessedContentPath.items
