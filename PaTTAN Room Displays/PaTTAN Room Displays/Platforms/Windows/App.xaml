@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="PaTTAN_Room_Displays.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:PaTTAN_Room_Displays.WinUI">
+
+</maui:MauiWinUIApplication>
