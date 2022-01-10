@@ -206,4 +206,5 @@ C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Di
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\publish\..\PaTTAN Room Displays.app\\\\Microsoft.Extensions.Primitives.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\publish\..\PaTTAN Room Displays.app\\\\Microsoft.Maui.Graphics.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\publish\..\PaTTAN Room Displays.app\\\\System.Diagnostics.EventLog.dll
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\publish\..\PaTTAN Room Displays.app\\\\TimeZoneConverter.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\publish\..\PaTTAN Room Displays.app\\\\Xamarin.Essentials.dll

@@ -550,6 +550,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.12.0.2": {
         "type": "package",
         "dependencies": {
@@ -2076,6 +2085,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.2": {
@@ -3606,6 +3624,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.12.0.2": {
         "type": "package",
         "dependencies": {
@@ -5132,6 +5159,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.2": {
@@ -6662,6 +6698,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.12.0.2": {
         "type": "package",
         "dependencies": {
@@ -8190,6 +8235,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.12.0.2": {
         "type": "package",
         "dependencies": {
@@ -9716,6 +9770,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.2": {
@@ -11247,6 +11310,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.12.0.2": {
         "type": "package",
         "dependencies": {
@@ -12776,6 +12848,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.12.0.2": {
         "type": "package",
         "dependencies": {
@@ -14303,6 +14384,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.2": {
@@ -15840,6 +15930,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -16375,6 +16474,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -16914,6 +17022,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -17449,6 +17566,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -17988,6 +18114,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -18525,6 +18660,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -19060,6 +19204,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -19600,6 +19753,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -20138,6 +20300,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -20674,6 +20845,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -21229,6 +21409,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -21764,6 +21953,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -22303,6 +22501,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -22838,6 +23045,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -23377,6 +23593,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -23914,6 +24139,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -24449,6 +24683,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -24989,6 +25232,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -25527,6 +25779,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -26063,6 +26324,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -26861,6 +27131,15 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -27828,6 +28107,15 @@
           "ref/netstandard1.3/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -28791,6 +29079,15 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -29758,6 +30055,15 @@
           "ref/netstandard1.3/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -30721,6 +31027,15 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -31688,6 +32003,15 @@
           "ref/netstandard1.3/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -32653,6 +32977,15 @@
           "ref/netstandard1.3/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -33551,6 +33884,15 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -34453,6 +34795,15 @@
           "ref/netstandard1.3/_._": {}
         }
       },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -35351,6 +35702,15 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
+        }
+      },
+      "TimeZoneConverter/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -38249,6 +38609,33 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "TimeZoneConverter/3.5.0": {
+      "sha512": "ziTcQ5rVxRdtWJEnEqhKBukZGuUQregbf5G7QRrFKj6CwBLss5tSz0dlSHy9gzi5M5ES0PNQ0K2ACP/0XVT5Ow==",
+      "type": "package",
+      "path": "timezoneconverter/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/TimeZoneConverter.dll",
+        "lib/net35/TimeZoneConverter.xml",
+        "lib/net40/TimeZoneConverter.dll",
+        "lib/net40/TimeZoneConverter.xml",
+        "lib/net45/TimeZoneConverter.dll",
+        "lib/net45/TimeZoneConverter.xml",
+        "lib/net461/TimeZoneConverter.dll",
+        "lib/net461/TimeZoneConverter.xml",
+        "lib/net471/TimeZoneConverter.dll",
+        "lib/net471/TimeZoneConverter.xml",
+        "lib/netstandard1.1/TimeZoneConverter.dll",
+        "lib/netstandard1.1/TimeZoneConverter.xml",
+        "lib/netstandard1.3/TimeZoneConverter.dll",
+        "lib/netstandard1.3/TimeZoneConverter.xml",
+        "lib/netstandard2.0/TimeZoneConverter.dll",
+        "lib/netstandard2.0/TimeZoneConverter.xml",
+        "timezoneconverter.3.5.0.nupkg.sha512",
+        "timezoneconverter.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.12.0.2": {
       "sha512": "1/LA7086pK4XFQwZfXwF6PyVl7H3LuamfPhAKXAlyfb/KtMzHvFjjP/PGnpRJs4rDE/PLM+0jrthnabb57nk4g==",
       "type": "package",
@@ -39632,6 +40019,7 @@
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "System.Linq >= 4.3.0",
+      "TimeZoneConverter >= 3.5.0",
       "Xamarin.Essentials >= 1.7.0"
     ],
     "net6.0-ios15.0": [
@@ -39640,6 +40028,7 @@
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "System.Linq >= 4.3.0",
+      "TimeZoneConverter >= 3.5.0",
       "Xamarin.Essentials >= 1.7.0"
     ],
     "net6.0-maccatalyst15.0": [
@@ -39648,6 +40037,7 @@
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "System.Linq >= 4.3.0",
+      "TimeZoneConverter >= 3.5.0",
       "Xamarin.Essentials >= 1.7.0"
     ],
     "net6.0-windows10.0.19041": [
@@ -39658,6 +40048,7 @@
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349",
       "Microsoft.WindowsAppSDK >= 1.0.0",
       "System.Linq >= 4.3.0",
+      "TimeZoneConverter >= 3.5.0",
       "Xamarin.Essentials >= 1.7.0"
     ]
   },
@@ -39748,6 +40139,10 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
+          "TimeZoneConverter": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -39823,6 +40218,10 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
+          "TimeZoneConverter": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -39883,6 +40282,10 @@
           "System.Linq": {
             "target": "Package",
             "version": "[4.3.0, )"
+          },
+          "TimeZoneConverter": {
+            "target": "Package",
+            "version": "[3.5.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -39953,6 +40356,10 @@
           "System.Linq": {
             "target": "Package",
             "version": "[4.3.0, )"
+          },
+          "TimeZoneConverter": {
+            "target": "Package",
+            "version": "[3.5.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -40116,6 +40523,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40176,6 +40593,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40236,6 +40663,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40296,6 +40733,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40356,6 +40803,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40416,6 +40873,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40476,6 +40943,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40536,6 +41013,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40596,6 +41083,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -40648,6 +41145,16 @@
       "warningLevel": 1,
       "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/win10-x86"
       ]

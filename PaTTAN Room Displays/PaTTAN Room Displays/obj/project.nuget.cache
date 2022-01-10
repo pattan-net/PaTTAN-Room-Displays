@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "02bcnBubAc62Z3LmaqSUIDknfJw4+YMei/pgf9X5ihtiztsEKxDi1WF8o43y4inqhpekbHVOqdoOspORFGcXwg==",
+  "dgSpecHash": "oNqukgsJ/bQUtcSC/0Ii2hEMBlrdNWhmCO+iNJRonQuengSuwtZbqrYQvWGMEe1OiZkm+ia7+LVzY3HpPXC2PQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Joel Wehr\\Dropbox\\Software Dev\\MAUI\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays.csproj",
   "expectedPackageFiles": [
@@ -86,6 +86,7 @@
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joel Wehr\\.nuget\\packages\\timezoneconverter\\3.5.0\\timezoneconverter.3.5.0.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.android.glide\\4.12.0.2\\xamarin.android.glide.4.12.0.2.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.12.0.2\\xamarin.android.glide.disklrucache.4.12.0.2.nupkg.sha512",
     "C:\\Users\\Joel Wehr\\.nuget\\packages\\xamarin.android.glide.gifdecoder\\4.12.0.2\\xamarin.android.glide.gifdecoder.4.12.0.2.nupkg.sha512",
@@ -213,6 +214,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -273,6 +284,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -333,6 +354,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -393,6 +424,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -453,6 +494,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/android-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -513,6 +564,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/ios-arm"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -573,6 +634,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/maccatalyst-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -633,6 +704,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-arm64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -693,6 +774,16 @@
       "code": "NU1703",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "'Xamarin.Essentials 1.7.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
@@ -745,6 +836,16 @@
       "warningLevel": 1,
       "message": "'System.Text.Json 6.0.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
       "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.0/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1703",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'TimeZoneConverter 3.5.0' was resolved as a dependency of 'PaTTAN Room Displays', but the dependency is using 'Xamarin.iOS' while 'PaTTAN Room Displays' is using 'net6.0-maccatalyst15.0' as its TargetFramework. There might be compatibility issues when MacCatalyst projects depend on Xamarin.iOS projects.",
+      "libraryId": "TimeZoneConverter",
       "targetGraphs": [
         "net6.0-maccatalyst15.0/win10-x86"
       ]

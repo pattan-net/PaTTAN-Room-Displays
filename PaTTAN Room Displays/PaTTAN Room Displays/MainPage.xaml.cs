@@ -1,4 +1,5 @@
 ﻿using System.Xml.Linq;
+using TimeZoneConverter;
 
 namespace PaTTAN_Room_Displays;
 
@@ -16,14 +17,14 @@ public partial class MainPage : ContentPage
         RoomNameLabel.Text = deviceName;
 
         //Get the date and time and display them.
+        //Windows and Linux perform time zone lookup in different databases as described below. TimeZoneConverter package installed to resolve this.
+        //https://devblogs.microsoft.com/dotnet/cross-platform-time-zones-with-net-core/
 
-        //The code below doesn't work in iOS for reasons that I have yet to determine.
-        //var timeUtc = DateTime.UtcNow;
-        //var easternZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
-        //var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, easternZone);
-
-        DateTimeLabel.Text = DateTime.Now.ToString("dddd, MMMM d | h:mm tt");
-
+        var timeUtc = DateTime.UtcNow;
+        TimeZoneInfo easternZone = TZConvert.GetTimeZoneInfo("America/New_York");
+        var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, easternZone);
+        DateTimeLabel.Text = today.ToString("dddd, MMMM d | h:mm tt");
+        
         XElement full = XElement.Load(uri: URLString);
         IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
         Console.WriteLine("Begin of result set");
@@ -39,8 +40,8 @@ public partial class MainPage : ContentPage
             //If so, display the event title and start/end times.
             if(roomName.Value == deviceName)
             {
-                EventTitleLabel.Text = title.Value;
-                EventTimeLabel.Text = startTime.Value + " - " + endTime.Value;
+               EventTitleLabel.Text = title.Value;
+               EventTimeLabel.Text = startTime.Value + " - " + endTime.Value;
             }
         }
     }
