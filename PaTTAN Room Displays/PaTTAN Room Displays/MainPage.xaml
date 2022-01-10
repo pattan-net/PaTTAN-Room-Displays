@@ -8,8 +8,6 @@
 			  Padding="{OnPlatform iOS='30,60,30,30', Default='30'}"
               BackgroundColor=" #b8daff"
               >
-
-
             <Label
                 TextColor="#1b2b3c"
 				
