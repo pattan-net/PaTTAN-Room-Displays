@@ -8,6 +8,8 @@ public partial class MainPage : ContentPage
     //Lobby display RSS feed for Resource Scheduler. The Lobby feed will have all events for the day, so we can parse it for a particular room.
     // String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
     String URLString = "/Users/mwelt/PaTTAN-Room-Displays/PaTTAN Room Displays/PaTTAN Room Displays/Resources/twoMeetingsOneDay.xml";
+    bool testMode = true;
+
     public MainPage()
 	{
 		InitializeComponent();
@@ -38,7 +40,7 @@ public partial class MainPage : ContentPage
 
             //Check if any feed elements contain event information for the room that this device is assigned to.
             //If so, display the event title and start/end times.
-            if(roomName.Value == deviceName)
+            if(roomName.Value == deviceName || testMode)
             {
                EventTitleLabel.Text = title.Value;
                EventTimeLabel.Text = startTime.Value + " - " + endTime.Value;
