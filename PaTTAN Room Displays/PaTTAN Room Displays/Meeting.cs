@@ -8,11 +8,11 @@ namespace PaTTAN_Room_Displays
 {
     internal class Meeting
     {
-        DateTime startTime { get; set; }
-        DateTime endTime { get; set; }
-        String title { get; set; }
-        String roomName { get; set; }
-        String contact { get; set; }
+        public DateTime startTime { get; set; }
+        public DateTime endTime { get; set; }
+        public String title { get; set; }
+        public String roomName { get; set; }
+        public String contact { get; set; }
 
         public Meeting(String inContact, String inRoomName, String inTitle, DateTime inStartTime, DateTime inEndtime)
         {
