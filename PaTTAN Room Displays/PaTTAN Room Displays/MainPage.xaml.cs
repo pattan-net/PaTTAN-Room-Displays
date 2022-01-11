@@ -6,9 +6,15 @@ namespace PaTTAN_Room_Displays;
 public partial class MainPage : ContentPage
 {
     //Lobby display RSS feed for Resource Scheduler. The Lobby feed will have all events for the day, so we can parse it for a particular room.
-    // String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
+#if RELEASE
+    String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
+    bool testMode = false;
+#endif
+
+#if DEBUG
     String URLString = "/Users/mwelt/PaTTAN-Room-Displays/PaTTAN Room Displays/PaTTAN Room Displays/Resources/twoMeetingsOneDay.xml";
     bool testMode = true;
+#endif
 
     public MainPage()
 	{
@@ -20,7 +26,7 @@ public partial class MainPage : ContentPage
 
         //Get the date and time and display them.
         //Windows and Linux perform time zone lookup in different databases as described below. TimeZoneConverter package installed to resolve this.
-        //https://devblogs.microsoft.com/dotnet/cross-platform-time-zones-with-net-core/
+        // https://devblogs.microsoft.com/dotnet/cross-platform-time-zones-with-net-core/
 
         var timeUtc = DateTime.UtcNow;
         TimeZoneInfo easternZone = TZConvert.GetTimeZoneInfo("America/New_York");
