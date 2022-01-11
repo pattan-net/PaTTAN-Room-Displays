@@ -25,16 +25,19 @@ public partial class MainPage : ContentPage
         var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, easternZone);
         DateTimeLabel.Text = today.ToString("dddd, MMMM d | h:mm tt");
         
+        //Load the XML RSS feed.
         XElement full = XElement.Load(uri: URLString);
         IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
-        Console.WriteLine("Begin of result set");
+
         foreach (XElement el in c1)
         {
             XElement roomName = el.Descendants().Where(e => e.Name.LocalName == "RoomName").FirstOrDefault();
             XElement title = el.Descendants().Where(e => e.Name.LocalName == "title").FirstOrDefault();
             XElement startTime = el.Descendants().Where(e => e.Name.LocalName == "StartTime").FirstOrDefault();
             XElement endTime = el.Descendants().Where(e => e.Name.LocalName == "EndTime").FirstOrDefault();
-            XElement contact = el.Descendants().Where(e => e.Name.LocalName == "Contact").FirstOrDefault();
+            
+            //Contact info is not a current requirement.
+            //XElement contact = el.Descendants().Where(e => e.Name.LocalName == "Contact").FirstOrDefault();
 
             //Check if any feed elements contain event information for the room that this device is assigned to.
             //If so, display the event title and start/end times.

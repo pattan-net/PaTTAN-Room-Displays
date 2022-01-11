@@ -4,11 +4,9 @@
 			 <!--BackgroundImageSource="pattan_background.png">-->
 
     <StackLayout>
-        <Grid RowSpacing="25" RowDefinitions="100,300,100,100"
+        <Grid RowSpacing="25" RowDefinitions="100,200,200,100"
 			  Padding="{OnPlatform iOS='30,60,30,30', Default='30'}"
-              BackgroundColor=" #b8daff"
-              >
-
+              BackgroundColor=" #b8daff">
 
             <Label
                 TextColor="#1b2b3c"
