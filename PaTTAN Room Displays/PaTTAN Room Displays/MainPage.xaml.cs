@@ -14,15 +14,18 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 #if RELEASE
     String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
+    String deviceName = DeviceInfo.Name;
 #endif
 #if DEBUG
-        String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+        // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+        // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+        String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
         var assembly = typeof(App).GetTypeInfo().Assembly;
         Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
+        String deviceName = "Meeting Room 1";
 #endif
 
         //Get the mobile device name, and display it. Device names should be configured for the room that they represent.
-        var deviceName = DeviceInfo.Name;
         RoomNameLabel.Text = deviceName;
 
         //Get the date and time and display them.
