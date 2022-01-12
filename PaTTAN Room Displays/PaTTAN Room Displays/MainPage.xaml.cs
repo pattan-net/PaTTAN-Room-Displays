@@ -17,9 +17,9 @@ public partial class MainPage : ContentPage
     String deviceName = DeviceInfo.Name;
 #endif
 #if DEBUG
-        // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-        // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-        String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
+        // String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
+         String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+        //String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
         var assembly = typeof(App).GetTypeInfo().Assembly;
         Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
         String deviceName = "Meeting Room 1";
@@ -27,7 +27,8 @@ public partial class MainPage : ContentPage
 
         //Get the mobile device name, and display it. Device names should be configured for the room that they represent.
         RoomNameLabel.Text = deviceName;
-
+        EventTimeLabel.IsVisible = false;
+        EventTitleLabel.Text = "No meetings scheduled at this time";
         //Get the date and time and display them.
         //Windows and Linux perform time zone lookup in different databases as described below. TimeZoneConverter package installed to resolve this.
         // https://devblogs.microsoft.com/dotnet/cross-platform-time-zones-with-net-core/
@@ -66,9 +67,13 @@ public partial class MainPage : ContentPage
             }
         }
         //@toddo sor the list by start time. 
-
-        EventTitleLabel.Text = meetingList[0].title;
-        EventTimeLabel.Text = meetingList[0].startTime.ToString("HH:mm tt");
+        if( meetingList.Count > 0)
+        {
+            EventTimeLabel.IsVisible = true;
+            EventTitleLabel.Text = meetingList[0].title;
+            EventTimeLabel.Text = meetingList[0].startTime.ToString("HH:mm tt");
+        }
+        
         
     }
 }

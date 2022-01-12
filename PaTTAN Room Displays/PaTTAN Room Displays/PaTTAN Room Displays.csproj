@@ -33,10 +33,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="green" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\appiconfg.svg" Color="#512BD4" />
+		<MauiSplashScreen Include="Resources\appiconfg.svg" Color="orange" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -53,10 +53,14 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\pattan_background - Copy.png" />
+	  <None Remove="Resources\noMeetings.xml" />
+	  <None Remove="Resources\threeMeetingsInDifferentRooms.xml" />
 	  <None Remove="Resources\twoMeetingsOneDay.xml" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <EmbeddedResource Include="Resources\noMeetings.xml" />
+	  <EmbeddedResource Include="Resources\threeMeetingsInDifferentRooms.xml" />
 	  <EmbeddedResource Include="Resources\twoMeetingsOneDay.xml">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </EmbeddedResource>

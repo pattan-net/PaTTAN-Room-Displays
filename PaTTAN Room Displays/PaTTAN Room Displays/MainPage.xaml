@@ -20,7 +20,8 @@
 				Grid.Row="1"
 				FontSize="60"
 				VerticalOptions="End"
-				HorizontalOptions="Center" />
+				HorizontalOptions="Center" 
+                />
 
             <Label
 				x:Name="EventTimeLabel"

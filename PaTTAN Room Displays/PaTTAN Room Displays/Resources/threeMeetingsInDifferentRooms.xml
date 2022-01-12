@@ -1,1 +1,62 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0"?>
+<rss xmlns:rsevent="rsevent.dtd" version="2.0" >
+	<channel>
+		<title>Resource Scheduler</title>
+		<link>/lobby_display.asp?LocID=12&amp;Delay=45&amp;MaxPer=22&amp;PageNum=1&amp;StationID=1&amp;ShowLoc=1&amp;ShowContact=1&amp;ShowXml=0</link>
+		<description>PaTTAN - Harrisburg</description>
+		<language>en-us</language>
+		<category>Lobby Display</category>
+		<item>
+			<title>SEAP-Virtual</title>
+			<link>/&amp;ShowXml=0</link>
+			<description>&lt;b&gt;SEAP-Virtual&lt;/b&gt;&lt;br/&gt;Wednesday, January 12, 2022&lt;br/&gt;8:00 PM - 9:00 PM&lt;br/&gt;Contact: Lisa Smith&lt;br/&gt;Room: Lycoming&lt;br/&gt;</description>
+			<guid isPermaLink="false">-1999935591</guid>
+			<rsevent:RoomID>76</rsevent:RoomID>
+			<rsevent:RoomName>Lycoming</rsevent:RoomName>
+			<rsevent:StartDate>Jan 12, 2022</rsevent:StartDate>
+			<rsevent:StartTime>8:00 PM</rsevent:StartTime>
+			<rsevent:EndDate>Jan 12, 2022</rsevent:EndDate>
+			<rsevent:EndTime>9:00 PM</rsevent:EndTime>
+			<rsevent:Contact>Lisa Smith</rsevent:Contact>
+			<rsevent:Private>1</rsevent:Private>
+			<rsevent:LocationID>12</rsevent:LocationID>
+			<rsevent:LocationName>PaTTAN - Harrisburg</rsevent:LocationName>
+			<rsevent:Direction></rsevent:Direction>
+		</item>
+		<item>
+			<title>SEAP-Virtual</title>
+			<link>/&amp;ShowXml=0</link>
+			<description>&lt;b&gt;SEAP-Virtual&lt;/b&gt;&lt;br/&gt;Wednesday, January 12, 2022&lt;br/&gt;8:00 PM - 9:00 PM&lt;br/&gt;Contact: Lisa Smith&lt;br/&gt;Room: Meeting Room 1&lt;br/&gt;</description>
+			<guid isPermaLink="false">-1999935592</guid>
+			<rsevent:RoomID>130</rsevent:RoomID>
+			<rsevent:RoomName>Meeting Room 1</rsevent:RoomName>
+			<rsevent:StartDate>Jan 12, 2022</rsevent:StartDate>
+			<rsevent:StartTime>8:00 PM</rsevent:StartTime>
+			<rsevent:EndDate>Jan 12, 2022</rsevent:EndDate>
+			<rsevent:EndTime>9:00 PM</rsevent:EndTime>
+			<rsevent:Contact>Lisa Smith</rsevent:Contact>
+			<rsevent:Private>1</rsevent:Private>
+			<rsevent:LocationID>12</rsevent:LocationID>
+			<rsevent:LocationName>PaTTAN - Harrisburg</rsevent:LocationName>
+			<rsevent:Direction></rsevent:Direction>
+		</item>
+		<item>
+			<title>SEAP-Virtual</title>
+			<link>/&amp;ShowXml=0</link>
+			<description>&lt;b&gt;SEAP-Virtual&lt;/b&gt;&lt;br/&gt;Wednesday, January 12, 2022&lt;br/&gt;8:00 PM - 9:00 PM&lt;br/&gt;Contact: Lisa Smith&lt;br/&gt;Room: Think Tank 2&lt;br/&gt;</description>
+			<guid isPermaLink="false">-1999935590</guid>
+			<rsevent:RoomID>85</rsevent:RoomID>
+			<rsevent:RoomName>Think Tank 2</rsevent:RoomName>
+			<rsevent:StartDate>Jan 12, 2022</rsevent:StartDate>
+			<rsevent:StartTime>8:00 PM</rsevent:StartTime>
+			<rsevent:EndDate>Jan 12, 2022</rsevent:EndDate>
+			<rsevent:EndTime>9:00 PM</rsevent:EndTime>
+			<rsevent:Contact>Lisa Smith</rsevent:Contact>
+			<rsevent:Private>1</rsevent:Private>
+			<rsevent:LocationID>12</rsevent:LocationID>
+			<rsevent:LocationName>PaTTAN - Harrisburg</rsevent:LocationName>
+			<rsevent:Direction></rsevent:Direction>
+		</item>
+
+	</channel>
+</rss>
