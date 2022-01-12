@@ -1,25 +1,25 @@
 ﻿using System.Xml.Linq;
 using TimeZoneConverter;
-using System;
+using System.Reflection;
 
 namespace PaTTAN_Room_Displays;
 
 public partial class MainPage : ContentPage
 {
     //Lobby display RSS feed for Resource Scheduler. The Lobby feed will have all events for the day, so we can parse it for a particular room.
-#if RELEASE
-    String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
-#endif
-
-#if DEBUG
-    String URLString = "/Users/mwelt/PaTTAN-Room-Displays/PaTTAN Room Displays/PaTTAN Room Displays/Resources/twoMeetingsOneDay.xml";
-#endif
-
     List<Meeting> meetingList = new List<Meeting>();
 
     public MainPage()
 	{
 		InitializeComponent();
+#if RELEASE
+    String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
+#endif
+#if DEBUG
+        String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+        var assembly = typeof(App).GetTypeInfo().Assembly;
+        Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
+#endif
 
         //Get the mobile device name, and display it. Device names should be configured for the room that they represent.
         var deviceName = DeviceInfo.Name;
@@ -34,13 +34,9 @@ public partial class MainPage : ContentPage
         var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, easternZone);
         DateTimeLabel.Text = today.ToString("dddd, MMMM d | h:mm tt");
         
-        XElement full = XElement.Load(uri: URLString);
+        XElement full = XElement.Load(URLString);
         IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
         Console.WriteLine("Begin of result set");
-        /*
-         * <rsevent:StartDate>Jan 10, 2022</rsevent:StartDate>
-         * <rsevent:StartTime>4:30 PM</rsevent:StartTime>
-        */
         String dateTimePattern = "MMM d, yyyy h:mm tt";
         foreach (XElement el in c1)
         {

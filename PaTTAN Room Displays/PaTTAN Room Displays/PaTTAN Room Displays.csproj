@@ -53,18 +53,19 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\pattan_background - Copy.png" />
+	  <None Remove="Resources\twoMeetingsOneDay.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\twoMeetingsOneDay.xml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="System.Linq" Version="4.3.0" />
 	  <PackageReference Include="TimeZoneConverter" Version="3.5.0" />
 	  <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Update="Resources\twoMeetingsOneDay.xml">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	</ItemGroup>
 
 	<PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">
