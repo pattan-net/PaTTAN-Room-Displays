@@ -43,8 +43,8 @@ public partial class MainPage : ContentPage
             //If so, display the event title and start/end times.
             if(roomName.Value == deviceName)
             {
-               EventTitleLabel.Text = title.Value;
-               EventTimeLabel.Text = startTime.Value + " - " + endTime.Value;
+               //EventTitleLabel.Text = title.Value;
+               EventLabel.Text = title.Value + "\r\n" + startTime.Value + " - " + endTime.Value;
             }
         }
     }

@@ -1,6 +1,3 @@
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\icudt.dat
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\icudt_CJK.dat
-C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libicui18n.a
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.runtimeconfig.json
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\PaTTAN Room Displays.pdb
@@ -204,6 +201,8 @@ C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Di
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Microsoft.Maui.Essentials.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\Xamarin.iOS.dll
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\System.Private.CoreLib.dll
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\icudt.dat
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\icudt_CJK.dat
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\icudt_EFIGS.dat
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\icudt_no_CJK.dat
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libSystem.IO.Compression.Native.a
@@ -215,6 +214,7 @@ C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Di
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libSystem.Security.Cryptography.Native.Apple.a
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libSystem.Security.Cryptography.Native.Apple.dylib
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libicudata.a
+C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libicui18n.a
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libicuuc.a
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libmono-component-debugger-static.a
 C:\Users\Joel Wehr\Dropbox\Software Dev\MAUI\PaTTAN Room Displays\PaTTAN Room Displays\PaTTAN Room Displays\bin\Debug\net6.0-ios\ios-arm\libmono-component-debugger-stub-static.a
