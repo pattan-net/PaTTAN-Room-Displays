@@ -1,39 +1,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PaTTAN_Room_Displays.MainPage">
-			 <!--BackgroundImageSource="pattan_background.png">-->
 
     <StackLayout>
         <Grid RowSpacing="25" RowDefinitions="100,300,100,100"
-			  Padding="{OnPlatform iOS='30,60,30,30', Default='30'}"
-              BackgroundColor=" #b8daff"
-              >
-
-
+			  Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
             <Label
-                TextColor="#1b2b3c"
-				
 				Grid.Row="0"
-				SemanticProperties.HeadingLevel="Level1"
 				FontSize="72"
 				HorizontalOptions="Center"
 				VerticalOptions="Start"
 				x:Name="RoomNameLabel" />
 
             <Label
-                TextColor="#1b2b3c"
-				
 				x:Name="EventTitleLabel"
 				Grid.Row="1"
-				SemanticProperties.HeadingLevel="Level1"
-				SemanticProperties.Description=""
 				FontSize="60"
 				VerticalOptions="End"
 				HorizontalOptions="Center" />
 
             <Label
-                TextColor="#1b2b3c"
-				
 				x:Name="EventTimeLabel"
 				Grid.Row="2"
 				FontSize="60"
@@ -42,14 +28,11 @@
 				HorizontalOptions="Center" />
 
             <Label
-                TextColor="#1b2b3c"
-				
 				Grid.Row="3"
 				FontSize="60"
 				FontAttributes="Bold"
 				x:Name="DateTimeLabel"
 				HorizontalOptions="Center" />
-
         </Grid>
     </StackLayout>
 </ContentPage>

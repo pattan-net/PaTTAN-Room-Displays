@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ActiveDebugFramework>net6.0-ios</ActiveDebugFramework>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugProfile>Studio</ActiveDebugProfile>
+    <ActiveDebugProfile>Susquehanna</ActiveDebugProfile>
     <SelectedDevice>Studio</SelectedDevice>
     <SelectedPlatformGroup>LocalDevice</SelectedPlatformGroup>
     <DefaultDevice>iPad Air (4th generation) iOS 15.2</DefaultDevice>
