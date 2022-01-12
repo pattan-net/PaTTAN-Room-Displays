@@ -62,6 +62,7 @@ public partial class MainPage : ContentPage
             // There are not that many meetings in a day.  We only put meetings on the list that haven't ended.
             // Later on we just show the top of the list. 
             if(today.TimeOfDay < temp.startTime.TimeOfDay || today.TimeOfDay < temp.endTime.TimeOfDay)
+            {
                 meetingList.Add(temp);
             }
         }
