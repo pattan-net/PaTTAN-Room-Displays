@@ -53,6 +53,13 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\pattan_background - Copy.png" />
+	  <None Remove="Resources\twoMeetingsOneDay.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\twoMeetingsOneDay.xml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>

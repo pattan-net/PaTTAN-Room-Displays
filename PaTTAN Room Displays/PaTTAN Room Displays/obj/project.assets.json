@@ -40053,26 +40053,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joel Wehr\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mwelt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joel Wehr\\Dropbox\\Software Dev\\MAUI\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays.csproj",
+      "projectUniqueName": "C:\\Users\\mwelt\\PaTTAN-Room-Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays.csproj",
       "projectName": "PaTTAN Room Displays",
-      "projectPath": "C:\\Users\\Joel Wehr\\Dropbox\\Software Dev\\MAUI\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays.csproj",
-      "packagesPath": "C:\\Users\\Joel Wehr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joel Wehr\\Dropbox\\Software Dev\\MAUI\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\obj\\",
+      "projectPath": "C:\\Users\\mwelt\\PaTTAN-Room-Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\PaTTAN Room Displays.csproj",
+      "packagesPath": "C:\\Users\\mwelt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mwelt\\PaTTAN-Room-Displays\\PaTTAN Room Displays\\PaTTAN Room Displays\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joel Wehr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mwelt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
