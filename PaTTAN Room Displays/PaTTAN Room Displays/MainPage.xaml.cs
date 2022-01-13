@@ -12,7 +12,7 @@ public partial class MainPage : ContentPage
 
     public MainPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 
 #if RELEASE
     String deviceName = DeviceInfo.Name;

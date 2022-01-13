@@ -11,7 +11,14 @@ public partial class App : Application
 		InitializeComponent();
 		getData();
 
-		MainPage = new MainPage();
+		if(meetingList.Count > 0)
+        {
+			MainPage = new MainPage();
+        } else
+        {
+			MainPage = new NoMeetingsPage();
+        }
+		
 	}
 
 	private void getData()

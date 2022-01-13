@@ -18,8 +18,8 @@ namespace PaTTAN_Room_Displays
             #endif
             #if DEBUG
                     // String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
-                    String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-                    //String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
+                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+                    String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
                     var assembly = typeof(App).GetTypeInfo().Assembly;
                     Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
             #endif

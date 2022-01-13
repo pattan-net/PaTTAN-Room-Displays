@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PaTTAN_Room_Displays.NoMeetingsPage"
+             Title="NoMeetingsPage"
+             BackgroundColor="White"
+             >
+
+    <StackLayout>
+        <Grid RowSpacing="25" 
+              RowDefinitions="500"
+			  Padding="{OnPlatform iOS='30,60,30,30', Default='30'}"
+              BackgroundColor="Red"
+              >
+            <Label
+				Grid.Row="0"
+				FontSize="72"
+				HorizontalOptions="Center"
+				VerticalOptions="Start"
+				x:Name="RoomNameLabel"
+                Text="{Binding Message}"
+                TextColor="Green"
+            />
+        </Grid>
+    </StackLayout>
+</ContentPage>
