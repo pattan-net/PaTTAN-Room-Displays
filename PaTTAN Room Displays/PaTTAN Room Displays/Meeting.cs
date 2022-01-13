@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PaTTAN_Room_Displays
 {
-    internal class Meeting
+    public class Meeting
     {
         public DateTime startTime { get; set; }
         public DateTime endTime { get; set; }
