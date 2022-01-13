@@ -1,6 +1,7 @@
 ﻿using System.Xml.Linq;
 using TimeZoneConverter;
 using System.Reflection;
+using System.Threading.Tasks;
 
 namespace PaTTAN_Room_Displays;
 
@@ -18,8 +19,8 @@ public partial class MainPage : ContentPage
 #endif
 #if DEBUG
         // String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
-         String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-        //String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
+        // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+        String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
         var assembly = typeof(App).GetTypeInfo().Assembly;
         Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
         String deviceName = "Meeting Room 1";
@@ -72,6 +73,12 @@ public partial class MainPage : ContentPage
             EventTimeLabel.IsVisible = true;
             EventTitleLabel.Text = meetingList[0].title;
             EventTimeLabel.Text = meetingList[0].startTime.ToString("HH:mm tt");
+        } else
+        {
+            // this doesn't work.  The gathering of room data needs to be a service.
+            // The App.xaml.cs should use that to service to set 'MainPage'
+            
+            Application.Current.MainPage = new DualRoomPage();
         }
         
         

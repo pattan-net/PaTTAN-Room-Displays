@@ -72,6 +72,12 @@
 	  <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="DualRoomPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 	<PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">
 		<OutputType>WinExe</OutputType>
 		<RuntimeIdentifier>win10-x64</RuntimeIdentifier>
