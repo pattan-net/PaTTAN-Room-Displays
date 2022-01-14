@@ -49,13 +49,17 @@ public partial class App : Application
 			switchFlag = !switchFlag;
 
 		}
-		if (switchFlag)
-		{
-			this.MainPage = hasMeetings;
-		}
-		else
-		{
-			this.MainPage = hasNoMeetings;
-		}
+		Dispatcher.Dispatch(
+		new Action(() => { 
+			if (switchFlag)
+				{
+					MainPage = hasMeetings;
+				}
+				else
+				{
+					MainPage = hasNoMeetings;
+				}
+			}) );
+
 	}
 }
