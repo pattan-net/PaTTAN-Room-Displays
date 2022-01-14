@@ -13,8 +13,13 @@ namespace PaTTAN_Room_Displays
 		{
 			// order of this message is importnat must be before comp init.
 			BindingContext = this;
+			InitializeComponent();
+		}
+
+		protected override void OnAppearing()
+		{
+			base.OnAppearing();
 			Message = "There are no meetings scheduled today";
-			InitializeComponent();			
 		}
 	}
 }

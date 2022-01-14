@@ -21,6 +21,9 @@
     <MauiXaml Update="DualRoomPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="LoadingDataPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="NoMeetingsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

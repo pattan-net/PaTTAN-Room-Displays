@@ -14,12 +14,18 @@ public partial class MainPage : ContentPage
 	{
         InitializeComponent();
 
-#if RELEASE
-    String deviceName = DeviceInfo.Name;
-#endif
-#if DEBUG
-        String deviceName = "Meeting Room 1";
-#endif
+
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        #if RELEASE
+            String deviceName = DeviceInfo.Name;
+        #endif
+        #if DEBUG
+                String deviceName = "Meeting Room 1";
+        #endif
 
         //Get the mobile device name, and display it. Device names should be configured for the room that they represent.
         RoomNameLabel.Text = deviceName;
@@ -49,12 +55,6 @@ public partial class MainPage : ContentPage
         EventTimeLabel.Text = meetings[0].startTime.ToString("HH:mm tt");
         
     }
-    /*
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-        EventTitleLabel.Text = "booo yahh!";
-    }
-    */
+
 }
 

@@ -17,9 +17,9 @@ namespace PaTTAN_Room_Displays
                 String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
             #endif
             #if DEBUG
-                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
+                    String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
                     // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-                    String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
+                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
                     var assembly = typeof(App).GetTypeInfo().Assembly;
                     Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
             #endif
