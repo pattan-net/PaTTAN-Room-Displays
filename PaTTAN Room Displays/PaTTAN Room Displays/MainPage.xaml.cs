@@ -39,8 +39,10 @@ public partial class MainPage : ContentPage
             }
         }
 
-        //@toddo sor the list by start time.
-        if(meetings.Count > 0)
+        //sort the list so we know the current meeting is the first element
+        meetings.Sort((p, q) => p.startTime.CompareTo(q.startTime));
+        
+        if (meetings.Count > 0)
         {
             EventTitleLabel.Text = meetings[0].title;
             EventTimeLabel.Text = meetings[0].startTime.ToString("HH:mm tt");
