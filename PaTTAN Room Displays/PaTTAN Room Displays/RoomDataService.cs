@@ -25,16 +25,14 @@ namespace PaTTAN_Room_Displays
         public List<Meeting> GetRoomData()
         {
             List<Meeting> MeetingList = new List<Meeting>();
-            #if RELEASE
-                String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
-            #endif
-            #if DEBUG
-                    String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
-                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
-                    var assembly = typeof(App).GetTypeInfo().Assembly;
-                    Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
-            #endif
+#if RELEASE
+            String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
+#endif
+#if DEBUG
+            // on windows this is C:\users\USERNAME\AppData\local
+            // For testing the timer and room service app you can open this file with notepad while the app is running and make edits.
+            String URLString = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "roomtest.xml");
+#endif
 
             XElement meetingRoomDataAll = XElement.Load(URLString);
             IEnumerable<XElement> meetingItems = from el in meetingRoomDataAll.Elements("channel").Elements("item") select el;
