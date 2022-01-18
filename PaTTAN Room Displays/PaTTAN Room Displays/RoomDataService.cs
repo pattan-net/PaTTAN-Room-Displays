@@ -31,6 +31,7 @@ namespace PaTTAN_Room_Displays
 #if DEBUG
             // on windows this is C:\users\USERNAME\AppData\local
             // For testing the timer and room service app you can open this file with notepad while the app is running and make edits.
+            // Example xml data can be found in this repo's testdata directory
             String URLString = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "roomtest.xml");
 #endif
 
