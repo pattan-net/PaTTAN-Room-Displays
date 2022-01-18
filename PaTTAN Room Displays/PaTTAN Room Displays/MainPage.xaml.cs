@@ -1,7 +1,4 @@
-﻿using System.Xml.Linq;
-using TimeZoneConverter;
-using System.Reflection;
-using System.Threading.Tasks;
+﻿using TimeZoneConverter;
 
 namespace PaTTAN_Room_Displays;
 
@@ -49,12 +46,5 @@ public partial class MainPage : ContentPage
         EventTimeLabel.Text = meetings[0].startTime.ToString("HH:mm tt");
         
     }
-    /*
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-        EventTitleLabel.Text = "booo yahh!";
-    }
-    */
 }
 

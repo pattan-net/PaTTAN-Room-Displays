@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Reflection;
 using System.Xml.Linq;
 
@@ -24,11 +20,11 @@ namespace PaTTAN_Room_Displays
                     Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
             #endif
 
-            XElement full = XElement.Load(URLString);
-            IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
+            XElement meetingRoomDataAll = XElement.Load(URLString);
+            IEnumerable<XElement> meetingItems = from el in meetingRoomDataAll.Elements("channel").Elements("item") select el;
             Console.WriteLine("Begin of result set");
             String dateTimePattern = "MMM d, yyyy h:mm tt";
-            foreach (XElement el in c1)
+            foreach (XElement el in meetingItems)
             {
                 XElement roomName = el.Descendants().Where(e => e.Name.LocalName == "RoomName").FirstOrDefault();
                 XElement title = el.Descendants().Where(e => e.Name.LocalName == "title").FirstOrDefault();
