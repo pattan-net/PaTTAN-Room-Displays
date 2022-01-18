@@ -1,19 +1,34 @@
-﻿namespace PaTTAN_Room_Displays;
+﻿using TimeZoneConverter;
+
+namespace PaTTAN_Room_Displays;
 
 public partial class App : Application
 {
+	/// <summary>
+	/// Class <c>App</c>:
+	/// Entry point for the room display application.  
+	/// This app is designed to run on a mobile device that is hung outside a of a conference room 
+	/// to display details about the current meeting.
+	/// </summary>
 	// configurable options
-	int timerInteval = 5000; // in milliseconds 
-	
-	RoomDataService roomDataService = new RoomDataService();
-	public static List<Meeting> meetingList = new List<Meeting>();
-	DateTime LasteUpdated;
-	private static System.Timers.Timer aTimer;
-	int testTicks = 0;
-	bool switchFlag = true;
+	readonly int RefreshRoomDataTimeInterval = 5000; // in milliseconds should be 5 min
+	public static TimeZoneInfo easternZone = TZConvert.GetTimeZoneInfo("America/New_York");
+	#if RELEASE
+		public static String deviceName = DeviceInfo.Name;
+	#endif
+	#if DEBUG
+		public static String deviceName = "Meeting Room 1";
+	#endif
+
+	RoomDataService roomDataService = new RoomDataService(); // This should be injected rather than instantiated.  
+	public static List<Meeting> meetingList = new List<Meeting>(); // List of meetings for room defined by deviceName 
+	private static System.Timers.Timer dataRefreshTimer; // Timer object used to repeatedly retreive room data see dataRefreshTimerCallback for details.
+
+	// Various application pages 
 	ContentPage hasMeetings = new MainPage();
 	ContentPage hasNoMeetings = new NoMeetingsPage();
 	ContentPage loadingDataPage = new LoadingDataPage();
+
 	public App()
 	{
 		InitializeComponent();
@@ -21,45 +36,59 @@ public partial class App : Application
 		ConfgiureUpdateDataTimer();
 	}
 
-	private void getData()
-    {
-		meetingList = roomDataService.GetRoomData();
-    }
-
 	private void ConfgiureUpdateDataTimer()
     {
 		// Create a timer and set a two second interval.
-		aTimer = new System.Timers.Timer();
-		aTimer.Interval = timerInteval;
+		dataRefreshTimer = new System.Timers.Timer();
+		dataRefreshTimer.Interval = RefreshRoomDataTimeInterval;
 		// Hook up the Elapsed event for the timer. 
-		aTimer.Elapsed += OnTimedEvent;
+		dataRefreshTimer.Elapsed += dataRefreshTimerCallback;
 		// Have the timer fire repeated events (true is the default)
-		aTimer.AutoReset = true;
+		dataRefreshTimer.AutoReset = true;
 		// Start the timer
-		aTimer.Enabled = true;
+		dataRefreshTimer.Enabled = true;
 	}
 
-	private void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
+	private void dataRefreshTimerCallback(Object source, System.Timers.ElapsedEventArgs e)
 	{
-		LasteUpdated = DateTime.UtcNow;
+		///<summary>
+		/// Timmer callback. Repsonsible for getting room data, post procssing, and setting active page display. 
+		/// </summary>
 		meetingList = roomDataService.GetRoomData();
-		testTicks += 1;
-		if ( (testTicks%2) == 0 )
+		trimRoomDataByDeviceName();
+		setPage();
+		System.Diagnostics.Debug.WriteLine(roomDataService.lastUpdated);
+	}
+
+	private void trimRoomDataByDeviceName()
+    {
+		///<summary>
+		/// Remove any meeting data other than for the spcified room.  Define room by setting the devices name. 
+		/// </summary>
+		for(int i =0; i<meetingList.Count; ++i) 
         {
-			switchFlag = !switchFlag;
+			if(meetingList[i].roomName != deviceName)
+            {
+				meetingList.RemoveAt(i);
+            }
+        }
+    }
 
-		}
+	private void setPage()
+    {
+		///<summary>
+		/// Sets the application page based on data found in the meeting list.  
+		/// </summary>
 		Dispatcher.Dispatch(
-		new Action(() => { 
-			if (switchFlag)
-				{
-					MainPage = hasMeetings;
-				}
-				else
-				{
-					MainPage = hasNoMeetings;
-				}
-			}) );
-
+		new Action(() => {
+			if (meetingList.Count > 0 )
+			{
+				MainPage = hasMeetings;
+			}
+			else
+			{
+				MainPage = hasNoMeetings;
+			}
+		}));
 	}
 }

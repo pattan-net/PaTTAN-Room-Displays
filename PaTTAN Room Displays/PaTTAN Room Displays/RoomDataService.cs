@@ -10,6 +10,22 @@ namespace PaTTAN_Room_Displays
 {
     internal class RoomDataService
     {
+        private DateTime _lastUpdated;
+        public DateTime lastUpdated {
+            get
+            {
+                return _lastUpdated;
+            }
+            set {
+                _lastUpdated = TimeZoneInfo.ConvertTimeFromUtc(value, App.easternZone);
+            }
+        }
+
+        public RoomDataService()
+        {
+            lastUpdated = DateTime.UtcNow;
+        }
+
         public List<Meeting> GetRoomData()
         {
             List<Meeting> MeetingList = new List<Meeting>(); 
@@ -24,9 +40,10 @@ namespace PaTTAN_Room_Displays
                     Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
             #endif
 
+            //Get and parse XML from resource scheduler
             XElement full = XElement.Load(URLString);
             IEnumerable<XElement> c1 = from el in full.Elements("channel").Elements("item") select el;
-            Console.WriteLine("Begin of result set");
+            // The data in the xml comes in two different elements.  This pattern is used to convert those elements to a DateTime object
             String dateTimePattern = "MMM d, yyyy h:mm tt";
             foreach (XElement el in c1)
             {
@@ -47,8 +64,8 @@ namespace PaTTAN_Room_Displays
                 );
                 MeetingList.Add(temp);
             }
+            lastUpdated = DateTime.UtcNow;
             return MeetingList;
         }
-
     }
 }

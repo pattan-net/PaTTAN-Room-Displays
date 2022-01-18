@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PaTTAN_Room_Displays
+﻿namespace PaTTAN_Room_Displays
 {
     public class Meeting
     {
+        /// <summary>Class <c>Meeting</c>
+        /// Defines a meeting object. 
+        /// </summary>
+        /// <remarks>Primary function is to store data gathered from the RoomDataService into an object of appropriate datatypes.</remarks>
         public DateTime startTime { get; set; }
         public DateTime endTime { get; set; }
         public String title { get; set; }

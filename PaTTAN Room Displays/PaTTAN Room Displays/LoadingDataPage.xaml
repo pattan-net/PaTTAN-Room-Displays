@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PaTTAN_Room_Displays.LoadingDataPage"
              Title="LoadingDataPage"
-             BackgroundColor="White">
+             BackgroundColor="#b8daff">
     <StackLayout>
         <Label Text="Please wait while we gather the confrerence room data."
                 VerticalOptions="CenterAndExpand" 
