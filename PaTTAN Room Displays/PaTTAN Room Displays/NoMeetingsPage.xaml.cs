@@ -14,9 +14,5 @@ namespace PaTTAN_Room_Displays
 			InitializeComponent();
 		}
 
-		protected override void OnAppearing()
-		{
-			base.OnAppearing();
-		}
 	}
 }

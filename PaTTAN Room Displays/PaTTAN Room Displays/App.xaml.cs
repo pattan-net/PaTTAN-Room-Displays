@@ -20,7 +20,7 @@ public partial class App : Application
 		public static String deviceName = "Meeting Room 1";
 	#endif
 
-	RoomDataService roomDataService = new RoomDataService(); // This should be injected rather than instantiated.  
+	RoomDataService roomDataService = new RoomDataService();
 	public static List<Meeting> meetingList = new List<Meeting>(); // List of meetings for room defined by deviceName 
 	private static System.Timers.Timer dataRefreshTimer; // Timer object used to repeatedly retreive room data see dataRefreshTimerCallback for details.
 
@@ -33,12 +33,11 @@ public partial class App : Application
 	{
 		InitializeComponent();
 		MainPage = loadingDataPage;
-		ConfgiureUpdateDataTimer();
+		ConfigureUpdateDataTimer();
 	}
 
-	private void ConfgiureUpdateDataTimer()
+	private void ConfigureUpdateDataTimer()
     {
-		// Create a timer and set a two second interval.
 		dataRefreshTimer = new System.Timers.Timer();
 		dataRefreshTimer.Interval = RefreshRoomDataTimeInterval;
 		// Hook up the Elapsed event for the timer. 
@@ -57,7 +56,7 @@ public partial class App : Application
 		meetingList = roomDataService.GetRoomData();
 		trimRoomDataByDeviceName();
 		setPage();
-		System.Diagnostics.Debug.WriteLine(roomDataService.lastUpdated);
+		System.Diagnostics.Debug.WriteLine(roomDataService.LastUpdated);
 	}
 
 	private void trimRoomDataByDeviceName()

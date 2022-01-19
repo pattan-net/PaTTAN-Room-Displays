@@ -5,7 +5,7 @@
              Title="LoadingDataPage"
              BackgroundColor="#b8daff">
     <StackLayout>
-        <Label Text="Please wait while we gather the confrerence room data."
+        <Label Text="Please wait while we gather the conference room data."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
     </StackLayout>

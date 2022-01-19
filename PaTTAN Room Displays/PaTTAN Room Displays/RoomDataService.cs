@@ -10,20 +10,20 @@ namespace PaTTAN_Room_Displays
 {
     internal class RoomDataService
     {
-        private DateTime _lastUpdated;
-        public DateTime lastUpdated {
+        private DateTime lastUpdated;
+        public DateTime LastUpdated {
             get
             {
-                return _lastUpdated;
+                return lastUpdated;
             }
             set {
-                _lastUpdated = TimeZoneInfo.ConvertTimeFromUtc(value, App.easternZone);
+                lastUpdated = TimeZoneInfo.ConvertTimeFromUtc(value, App.easternZone);
             }
         }
 
         public RoomDataService()
         {
-            lastUpdated = DateTime.UtcNow;
+            LastUpdated = DateTime.UtcNow;
         }
 
         public List<Meeting> GetRoomData()
@@ -64,7 +64,7 @@ namespace PaTTAN_Room_Displays
                 );
                 MeetingList.Add(temp);
             }
-            lastUpdated = DateTime.UtcNow;
+            LastUpdated = DateTime.UtcNow;
             return MeetingList;
         }
     }
