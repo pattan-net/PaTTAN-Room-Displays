@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace PaTTAN_Room_Displays
 {
-    internal class RoomDataService
+    public class RoomDataService
     {
         public List<Meeting> GetRoomData()
         {
