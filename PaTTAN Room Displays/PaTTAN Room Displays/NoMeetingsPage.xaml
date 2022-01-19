@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PaTTAN_Room_Displays.NoMeetingsPage"
-             Title="NoMeetingsPage"
-             >
+             Title="NoMeetingsPage">
     <StackLayout>
-        <Label
-				Grid.Row="0"
-				FontSize="72"
-				x:Name="RoomNameLabel"
-                Text="There are no meetings scheduled"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-            />
-    </StackLayout>
+        <Label Grid.Row="0"
+            FontSize="72"
+            x:Name="RoomNameLabel"
+            Text="There are no meetings scheduled"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand" />
+     </StackLayout>
 </ContentPage>

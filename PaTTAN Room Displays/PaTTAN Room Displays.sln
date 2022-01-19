@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaTTAN Room Displays", "PaTTAN Room Displays\PaTTAN Room Displays.csproj", "{341A10A7-AAD5-4289-A860-D3C4FCD456CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PattanRoomDisplays", "PaTTAN Room Displays\PattanRoomDisplays.csproj", "{341A10A7-AAD5-4289-A860-D3C4FCD456CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

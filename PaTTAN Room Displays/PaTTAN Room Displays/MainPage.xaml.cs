@@ -8,11 +8,11 @@ public partial class MainPage : ContentPage
     List<Meeting> meetings = new List<Meeting>();
 
     public MainPage()
-	{
+    {
         InitializeComponent();
 
 #if RELEASE
-    String deviceName = DeviceInfo.Name;
+        String deviceName = DeviceInfo.Name;
 #endif
 #if DEBUG
         String deviceName = "Meeting Room 1";
@@ -28,13 +28,13 @@ public partial class MainPage : ContentPage
         TimeZoneInfo easternZone = TZConvert.GetTimeZoneInfo("America/New_York");
         var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, easternZone);
         DateTimeLabel.Text = today.ToString("dddd, MMMM d | h:mm tt");
-        
+
 
         // There are not that many meetings in a day.  We only put meetings on the list that haven't ended.
         // Later on we just show the top of the list.
-        foreach(Meeting meeting in App.meetingList)
+        foreach (Meeting meeting in App.meetingList)
         {
-            if(today.TimeOfDay < meeting.startTime.TimeOfDay || today.TimeOfDay < meeting.endTime.TimeOfDay)
+            if (today.TimeOfDay < meeting.startTime.TimeOfDay || today.TimeOfDay < meeting.endTime.TimeOfDay)
             {
                 meetings.Add(meeting);
             }
@@ -44,7 +44,7 @@ public partial class MainPage : ContentPage
 
         EventTitleLabel.Text = meetings[0].title;
         EventTimeLabel.Text = meetings[0].startTime.ToString("HH:mm tt");
-        
+
     }
 }
 
