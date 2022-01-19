@@ -6,19 +6,35 @@ namespace PaTTAN_Room_Displays
 {
     public class RoomDataService
     {
+        private DateTime lastUpdated;
+        public DateTime LastUpdated {
+            get
+            {
+                return lastUpdated;
+            }
+            set {
+                lastUpdated = TimeZoneInfo.ConvertTimeFromUtc(value, App.easternZone);
+            }
+        }
+
+        public RoomDataService()
+        {
+            LastUpdated = DateTime.UtcNow;
+        }
+
         public List<Meeting> GetRoomData()
         {
             List<Meeting> MeetingList = new List<Meeting>();
-#if RELEASE
-            String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
-#endif
-#if DEBUG
-            // String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
-            // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
-            String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
-            var assembly = typeof(App).GetTypeInfo().Assembly;
-            Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
-#endif
+            #if RELEASE
+                String URLString = "https://lancasterlebanon.resourcescheduler.net/rsevents/lobby_display.asp?StationID=1&ShowXML=1";
+            #endif
+            #if DEBUG
+                    String xmlFileName = "PaTTAN_Room_Displays.Resources.threeMeetingsInDifferentRooms.xml";
+                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.twoMeetingsOneDay.xml";
+                    // String xmlFileName = "PaTTAN_Room_Displays.Resources.noMeetings.xml";
+                    var assembly = typeof(App).GetTypeInfo().Assembly;
+                    Stream URLString = assembly.GetManifestResourceStream(xmlFileName);
+            #endif
 
             XElement meetingRoomDataAll = XElement.Load(URLString);
             IEnumerable<XElement> meetingItems = from el in meetingRoomDataAll.Elements("channel").Elements("item") select el;
@@ -43,8 +59,8 @@ namespace PaTTAN_Room_Displays
                 );
                 MeetingList.Add(temp);
             }
+            LastUpdated = DateTime.UtcNow;
             return MeetingList;
         }
-
     }
 }

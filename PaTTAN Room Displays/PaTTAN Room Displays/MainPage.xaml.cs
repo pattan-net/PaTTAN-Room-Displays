@@ -10,29 +10,25 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
+    }
 
-#if RELEASE
-        String deviceName = DeviceInfo.Name;
-#endif
-#if DEBUG
-        String deviceName = "Meeting Room 1";
-#endif
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
 
         //Get the mobile device name, and display it. Device names should be configured for the room that they represent.
-        RoomNameLabel.Text = deviceName;
+        RoomNameLabel.Text = App.deviceName;
         //Get the date and time and display them.
         //Windows and Linux perform time zone lookup in different databases as described below. TimeZoneConverter package installed to resolve this.
         // https://devblogs.microsoft.com/dotnet/cross-platform-time-zones-with-net-core/
 
         var timeUtc = DateTime.UtcNow;
-        TimeZoneInfo easternZone = TZConvert.GetTimeZoneInfo("America/New_York");
-        var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, easternZone);
+        var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, App.easternZone);
         DateTimeLabel.Text = today.ToString("dddd, MMMM d | h:mm tt");
 
-
         // There are not that many meetings in a day.  We only put meetings on the list that haven't ended.
-        // Later on we just show the top of the list.
-        foreach (Meeting meeting in App.meetingList)
+        // Later on we just show the top of the list.  XML dates are already in Easter timezone.
+        foreach(Meeting meeting in App.meetingList)
         {
             if (today.TimeOfDay < meeting.startTime.TimeOfDay || today.TimeOfDay < meeting.endTime.TimeOfDay)
             {
@@ -40,11 +36,20 @@ public partial class MainPage : ContentPage
             }
         }
 
-        //@toddo sor the list by start time.
+        if (meetings.Count > 0)
+        {
+            //sort the list so we know the current meeting is the first element
+            meetings.Sort((p, q) => p.startTime.CompareTo(q.startTime));
+            EventTitleLabel.Text = meetings[0].title;
+            EventTimeLabel.Text = meetings[0].startTime.ToString("HH:mm tt");
+        } else
+        {
+            EventTitleLabel.Text = "There are no more meetings scheduled for today";
+            EventTimeLabel.Text = "";
+        }
 
-        EventTitleLabel.Text = meetings[0].title;
-        EventTimeLabel.Text = meetings[0].startTime.ToString("HH:mm tt");
 
     }
+
 }
 
